@@ -45,7 +45,7 @@ public class Enemy : MonoBehaviour
     Instantiate(enemyBall,transform.position,transform.rotation);
     if (enemyType == 2)
     {
-    randomTime = Random.Range(1f, 30f);
+    randomTime = Random.Range(13f, 60f);
     Invoke("ShootsBall", randomTime);
     }
     }
