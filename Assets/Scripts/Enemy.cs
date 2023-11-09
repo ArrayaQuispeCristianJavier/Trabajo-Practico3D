@@ -55,7 +55,7 @@ public class Enemy : MonoBehaviour
         {
             case 1:
             {
-            if (transform.position.x >= 4.35f && transform.position.y >= -1.15f && transform.position.z >= 3.82)
+            if (transform.position.x >= 4.54f && transform.position.y >= -1.38f && transform.position.z >= 4.78f)
             {
             Destroy(gameObject);
             }
