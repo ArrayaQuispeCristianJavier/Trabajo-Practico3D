@@ -11,7 +11,7 @@ public class Generador : MonoBehaviour
     [SerializeField] float repeatTime;
     [SerializeField] byte typeGenerator;
     [SerializeField] float speed = 3.0f;
-    
+    private byte enemyGenerate = 0;
     void Start()
     {
         InvokeRepeating("GenerateEnemy", initTime, repeatTime);
@@ -20,7 +20,11 @@ public class Generador : MonoBehaviour
 
     public void GenerateEnemy()
     {
-        Instantiate(enemy, transform.position, transform.rotation);
+        if (enemyGenerate < 5)
+        {
+            Instantiate(enemy, transform.position, transform.rotation);
+            enemyGenerate++;
+        }
     }
 
     IEnumerator MoveGeneratorCoroutine()
