@@ -14,7 +14,10 @@ public class BalaPlayer : MonoBehaviour
                 {
                     
                 transform.Translate(0, 0, -speedZ * Time.deltaTime);
-                
+                if (transform.position.z <= -3.99f)
+                {
+                Destroy(gameObject);       
+                }
                 break;
                 }
             case 2:
