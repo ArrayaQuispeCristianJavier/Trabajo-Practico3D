@@ -14,7 +14,7 @@ public class BalaPlayer : MonoBehaviour
                 {
                     
                 transform.Translate(0, 0, -speedZ * Time.deltaTime);
-                    
+                
                 break;
                 }
             case 2:

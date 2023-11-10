@@ -60,11 +60,10 @@ public class Enemy : MonoBehaviour
             Destroy(gameObject);
             }
             transform.Translate(speedX * Time.deltaTime, 0, speedZ * Time.deltaTime);
-             break;
+            break;
             }
             case 2:
             {
-            //Evitar que el player salga del plano y va a chocar
             if (transform.position.x >= 4.44f || transform.position.x <= -4.44f)
             {
             speedXEnemy2 *= -1;           
