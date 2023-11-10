@@ -136,10 +136,10 @@ GameObject:
   m_Layer: 0
   m_Name: Generador
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &427745733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -311,6 +311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  balaPlayer: {fileID: 5036805854312890183, guid: 358525ddf35416848a056a1107321317, type: 3}
 --- !u!65 &695922519
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -596,7 +597,7 @@ GameObject:
   m_Layer: 0
   m_Name: Generador2
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
